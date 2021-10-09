@@ -70,7 +70,7 @@ sudo systemctl start docker
 ```
 git clone --depth=1 https://github.com/Websoft9/docker-cloudbeaver
 cd docker-cloudbeaver
-sudo docker-compose -f docker-compose-production.yml --env-file .env_all up -d
+sudo docker-compose -f docker-compose.yml --env-file .env up -d
 ```
 
 ### 常见问题
@@ -81,7 +81,7 @@ sudo docker-compose -f docker-compose-production.yml --env-file .env_all up -d
 
 #### 端口冲突导致无法启动？
 
-修改 [docker-compose](docker-compose-production.yml) 文件中冲突的端口，然后再启动容器
+修改 [docker-compose](docker-compose.yml) 文件中冲突的端口，然后再启动容器
 
 
 ### 使用说明
