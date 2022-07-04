@@ -53,6 +53,7 @@ If you have not install Docker and Docker-Compose, refer to the following comman
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo systemctl enable docker
 sudo systemctl start docker
 alias docker-compose='docker compose'
 ```

@@ -57,6 +57,7 @@ sudo bash install-cloudbeaver
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo systemctl enable docker
 sudo systemctl start docker
 alias docker-compose='docker compose'
 ```
